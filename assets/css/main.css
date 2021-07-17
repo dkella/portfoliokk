@@ -465,7 +465,7 @@ img{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: rgba(204,75,44,.7);
+    background: rgba(233, 93, 128, 0.7);
     border-radius: .5rem;
     transition: .3s;
 }
@@ -490,7 +490,7 @@ img{
 
 /* footer */
 .footer{
-    background-color: var(--first-colour-darken);
+    background-color: var(--first-colour-dark);
     color: var(--first-colour-lighten);
     text-align: center;
 }
