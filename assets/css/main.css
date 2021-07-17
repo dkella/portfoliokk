@@ -536,6 +536,11 @@ img{
         width: var(--nav-width);
     }
 
+    
+    .section{
+        padding: 4rem 8rem 2rem 8rem;
+    }
+
     .about__container,
     .skills__container,
     .project__container{
