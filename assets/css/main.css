@@ -332,3 +332,69 @@ img{
 .about__information-subtitle-small{
     font-size: var(--small-font-size);
 }
+
+/* skills */
+.skills__container{
+    row-gap: 2rem;
+}
+
+.skills_subtitle{
+    font-size: var(--h3-font-size);
+    color: var(--first-colour-dark);
+    margin-bottom: var(--mb-2);
+}
+.skills__data{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 var(--mb-2);
+    margin-bottom: var(--mb-4);
+}
+.skills__name{
+    text-transform: uppercase;
+}
+.skills__bar{
+    position: absolute;
+    bottom: -.75rem;
+    height: .25rem;
+    background-color: var(--first-colour);
+}
+
+.skills__10{
+    width: 10%;
+}
+.skills__20{
+    width: 20%;
+}
+.skills__30{
+    width: 30%;
+}
+.skills__40{
+    width: 40%;
+}
+.skills__50{
+    width: 50%;
+}
+.skills__60{
+    width: 60%;
+}
+.skills__70{
+    width: 70%;
+}
+.skills__80{
+    width: 80%;
+}
+.skills__90{
+    width: 90%;
+}
+.skills__100{
+    width: 100%;
+}
+
+/* <!-- Education --> */
+
+/* <!-- Services --> */
+
+/* <!-- Work --> */
+
+/* <!-- Contact --> */
