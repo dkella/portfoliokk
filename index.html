@@ -3,20 +3,102 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Auto Typing</title>
+    <title>Kella Ong-Personal portfolio</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='assets/css/main.css'>
+    <!-- box icon -->
+    <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
     <!-- <script src='main.js'></script> -->
 </head>
 <body>
-    <div class="wrapper">
-        <div class="static-txt">I'm a</div>
-        <ul class="dynamic-txts">
-            <li><span>Developer</span></li>
-            <li><span>Designer</span></li>
-            <li><span>Singer</span></li>
-            <li><span>Kella</span></li>
-        </ul>
-    </div>
+    <!-- header -->
+    <header class="header">
+        <nav class="nav bd-grid">
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="bx bx-menu"></i>
+            </div>
+
+            <div>
+                <a href="#" class="nav__logo">Kella</a>
+            </div>
+            <div class="nav__menu" id="nav-menu">
+                <div class="nav__close" id="nav-close">
+                    <i class='bx bx-x' ></i>
+                </div>
+
+                <ul class="nav_list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#education" class="nav__link">Education</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
+                    <li class="nav__item"><a href="#works" class="nav__link">Work</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!-- Home -->
+        <section class="home section" id="home">
+            <div class="home__container bd-grid">
+                <div class="home__data">
+                    <div class="home__img">
+                        <img src="assets/img/profile.png" alt="">
+                    </div>
+
+                    <h1 class="home__title">Kella Ong</h1>
+                    <span class="home__profession">PHP Developer</span>
+
+                    <div class="home__social">
+                        <a href="https://www.linkedin.com/in/kella-ong-2a139bb4" class="home__social-link"><i class='bx bxl-linkedin'></i></a>
+                        <a href="#" class="home__social-link"><i class='bx bxl-github'></i></a>
+                    </div>
+
+                    <a download href="assets/file/Resume-KellaOng.pdf" class="button home__button">Download Resume</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section class="about section" id="about">
+            <span class="section-subtitle">My Intro</span>
+            <h2 class="section-title">About Me</h2>
+
+            <div class="about__container bd-grid">
+                <div class="about__data">
+                    <p class="about__description">Hi, I'm a PHP developer, passion to learn new thing, with 5 years working experience.</p>
+                    <img src="assets/img/about.png" alt="" class="about__img">
+                </div>
+
+                <div class="about__information">
+                    <h3 class="about__information-title">Information</h3>
+
+                    <div class="about__information-data">
+                        <i class='bx bxs-user about__information-icon' ></i>
+                        <span>Kella Ong</span>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+        <!-- Skills -->
+
+        <!-- Education -->
+
+        <!-- Services -->
+
+        <!-- Work -->
+
+        <!-- Contact -->
+    </main>
+
+    <!-- footer -->
+    <!-- main js
+     -->
+     <script src='assets/js/main.js'></script>
 </body>
 </html>
