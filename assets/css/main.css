@@ -479,14 +479,7 @@ img{
 }
 .work__content{
     display: grid;
-    grid-template-columns: auto;
-}
-
-.work__year, .work__place{
-    font-size: var(--small-font-size);
-    margin-bottom: .1rem;
-    color: var(--first-colour-dark);
-    text-transform: uppercase;
+    grid-template-columns: 1fr max-content 1fr;
 }
 
 ul.work__list{
@@ -495,8 +488,7 @@ ul.work__list{
 }
 .work__item{
     font-size: var(--smaller-font-size);
-    text-align: justify;
-}
+} 
 
 /* <!-- Project --> */
 .project__container{
@@ -618,8 +610,7 @@ ul.work__list{
 
     .about__container,
     .skills__container,
-    .project__container,
-    .work__container{
+    .project__container{
         grid-template-columns: repeat(2,1fr);
     }
     .about__data{
