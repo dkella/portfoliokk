@@ -253,7 +253,7 @@ img{
 .home__profession-autotype::before{
     content: "";
     position: absolute;
-    height: 25px;
+    height: 20px;
     width: 120px;
     background: #fffafa;
     border-left: 2px solid var(--first-colour-dark) ;
@@ -262,7 +262,7 @@ img{
 
 @keyframes typing {
     40%,60%{
-        transform: translateX(108px);
+        transform: translateX(100px);
     }
     100%{
         transform: translateX(0px);
@@ -573,6 +573,15 @@ img{
     footer{
         width: 75%;
         float: right;
+    }
+
+    @keyframes typing {
+        40%,60%{
+            transform: translateX(108px);
+        }
+        100%{
+            transform: translateX(0px);
+        }
     }
     
     .section{
